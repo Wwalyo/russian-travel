@@ -1,0 +1,14 @@
+.header__lang-link {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: 400;
+  transition: opacity .3s;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+

@@ -1,0 +1,23 @@
+.cover {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+.cover:before {
+  content: "";
+  display: block;
+  padding-top: 62.5%;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
