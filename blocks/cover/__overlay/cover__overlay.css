@@ -3,12 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  left: 0;
-  top: 0;
+  box-sizing: border-box;
+  min-height: 62.5vw;
   width: 100%;
   padding: 16px;
-  position: absolute;
+  position: relative;
   background: url("../../../images/cover-trains.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -32,4 +31,10 @@
 
 .cover__overlay:hover:before {
   opacity: .8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
+  }
 }

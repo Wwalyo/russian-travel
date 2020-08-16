@@ -8,12 +8,6 @@
   position: relative;
 }
 
-.cover:before {
-  content: "";
-  display: block;
-  padding-top: 62.5%;
-}
-
 @media screen and (min-width: 1280px) {
   .cover {
     width: 1184px;
